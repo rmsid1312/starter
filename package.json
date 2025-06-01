@@ -1,0 +1,22 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass scss/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmsid1312/starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmsid1312/starter/issues"
+  },
+  "homepage": "https://github.com/rmsid1312/starter#readme",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.89.1"
+  }
+}

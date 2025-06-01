@@ -1,0 +1,43 @@
+# 📦 node_modules: 모든 의존성 폴더 무시
+node_modules/
+
+# 🛠️ 빌드 결과물 무시
+dist/
+build/
+out/
+
+# 📁 환경 변수 파일 무시
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 🧪 테스트 관련
+coverage/
+*.lcov
+
+# 📝 로그 파일 무시
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ⚙️ 운영체제별 불필요한 파일
+.DS_Store
+Thumbs.db
+
+# 🧠 IDE/에디터 설정 무시
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# 📸 Storybook 관련
+.storybook-out/
+
+# 🔧 기타
+*.local
+*.log
